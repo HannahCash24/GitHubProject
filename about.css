@@ -1,0 +1,47 @@
+
+.grid {
+  display: grid;
+  grid-template-columns:repeat(6, minmax(0, 1fr));
+}
+
+.text {
+    grid-column: 1 / span 2;
+    font-family:"Poppins", sans-serif;
+    font-size: 12px;
+    color: black;
+    text-align: left;
+    padding-left: 80px;
+
+  }
+
+
+.pill-nav a {
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  font-size: 12px; 
+  font-family:"Poppins", sans-serif;
+  padding:80px;
+  
+ 
+}
+
+
+header{
+  padding-bottom: 40px;
+
+}
+
+
+li {
+  display: inline;
+  
+  
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+
+}

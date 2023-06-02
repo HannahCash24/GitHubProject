@@ -1,0 +1,265 @@
+
+.grid {
+    display: grid;
+    grid-template-columns:repeat(6, minmax(0, 1fr));
+}
+
+
+.text {
+    grid-column: 1 / span 2;
+    font-family:"Poppins", sans-serif;
+    font-size: 12px;
+    color: black;
+    text-align: left;
+    padding-left: 80px;
+
+  }
+
+
+.pill-nav a {
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  font-size: 12px; 
+  font-family:"Poppins", sans-serif;
+  padding:80px;
+ 
+}
+
+
+header{
+  padding-bottom: 40px;
+
+}
+
+
+li {
+  display: inline;
+  
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  
+}
+  
+
+.tree {
+  grid-column: 3/ span 2 ;
+  padding-left: 65px;
+  padding-top: 5px;
+}
+ 
+
+
+.beach {
+  grid-column: 5/ span 2 ;
+  padding-top: 5px;
+ 
+}
+
+.mountain {
+  grid-column: 3/ span 2 ;
+  padding-left: 65px;
+  padding-top: 5px;
+
+}
+
+
+.metal {
+  grid-column: 5/ span 2 ;
+  padding-top: 5px;
+
+}
+
+
+.glass {
+  grid-column: 3/ span 2 ;
+  padding-left: 65px;
+  padding-top: 5px;
+
+}
+
+.rocks {
+  grid-column: 5/ span 2 ;
+  padding-top: 5px;
+
+}
+
+.armrocks {
+  grid-column: 3/ span 2 ;
+  padding-top: 5px;
+  padding-left: 65px;
+
+}
+
+.hang {
+  grid-column: 5/ span 2 ;
+  padding-top: 5px;
+
+}
+
+
+/*The webpage has been designed*/
+*{
+  padding: 0;
+  margin: 0;
+ 
+}
+
+
+
+/*Basic structure of slider*/
+.container2{
+  width: 450px;
+  overflow: hidden;
+  padding-top: 20px;
+ 
+}
+
+/*Area of images*/
+.wrapper{
+  width: 100%;
+  display: flex;
+  animation: slide 16s infinite;
+}
+
+img{
+  width: 100%;
+}
+/*Animation activated by keyframes*/
+@keyframes slide{
+  0%{
+      transform: translateX(0);
+  }
+  25%{
+      transform: translateX(0);
+  }
+  30%{
+      transform: translateX(-100%);
+  }
+  50%{
+      transform: translateX(-100%);
+  }
+  55%{
+      transform: translateX(-200%);
+  }
+  75%{
+      transform: translateX(-200%);
+  }
+  80%{
+      transform: translateX(-300%);
+  }
+  100%{
+      transform: translateX(-300%);
+  }
+}
+
+
+/*Basic structure of slider*/
+.container3{
+  width: 450px;
+  overflow: hidden;
+  padding-top: 20px;
+ 
+}
+
+/*Area of images*/
+.wrapper{
+  width: 100%;
+  display: flex;
+  animation: slide 16s infinite;
+}
+
+img{
+  width: 100%;
+}
+/*Animation activated by keyframes*/
+@keyframes slide{
+  0%{
+      transform: translateX(0);
+  }
+  25%{
+      transform: translateX(0);
+  }
+  30%{
+      transform: translateX(-100%);
+  }
+  50%{
+      transform: translateX(-100%);
+  }
+  55%{
+      transform: translateX(-200%);
+  }
+  75%{
+      transform: translateX(-200%);
+  }
+  80%{
+      transform: translateX(-300%);
+  }
+  100%{
+      transform: translateX(-300%);
+  }
+}
+
+.container2{
+  grid-column: 3/ span 2 ;
+}
+
+.container3{
+  grid-column: 5/ span 2 ;
+}
+
+
+
+
+/*Basic structure of slider*/
+.container4{
+  height: 450px;
+  overflow: hidden;
+  padding-top: 20px;
+ 
+}
+
+/*Area of images*/
+.wrapper{
+  height: 100%;
+  display: flex;
+  animation: slide 16s infinite;
+}
+
+img{
+  width: 100%;
+}
+/*Animation activated by keyframes*/
+@keyframes slide{
+  0%{
+      transform: translateX(0);
+  }
+  25%{
+      transform: translateX(0);
+  }
+  30%{
+      transform: translateX(-100%);
+  }
+  50%{
+      transform: translateX(-100%);
+  }
+  55%{
+      transform: translateX(-200%);
+  }
+  75%{
+      transform: translateX(-200%);
+  }
+  80%{
+      transform: translateX(-300%);
+  }
+  100%{
+      transform: translateX(-300%);
+  }
+}
+
+
+
+

@@ -43,22 +43,23 @@
     list-style-type: none;
     margin: 0;
     padding: 10px;
+    text-align: center;
 
   }
   
   body {
-    cursor: url('Untitled-1.png'), auto;
+    cursor: url('images/Untitled-1.png'), auto;
   }
   
   .hike {
     grid-column: 3 / span 3;
-    padding-left: 65px;
+    padding-left: 50px;
     padding-top: 5px;
   }
   
   .muna {
     grid-column: 3 / span 2;
-    padding-left: 65px;
+    padding-left: 50px;
     
    
   }
@@ -70,7 +71,7 @@
   
   .nice {
     grid-column: 3 / span 2;
-    padding-left: 65px;
+    padding-left: 50px;
     padding-top: 5px;
   }
   

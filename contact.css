@@ -27,9 +27,10 @@
   
   header{
     padding-bottom: 40px;
-  
+
   }
-  
+ 
+
   
   li {
     display: inline;
@@ -40,6 +41,12 @@
   ul {
     list-style-type: none;
     margin: 0;
+    padding: 10px;
+    text-align: center;
     
+  }
+  
+  body {
+    cursor: url('images/Untitled-1.png'), auto;
   }
   

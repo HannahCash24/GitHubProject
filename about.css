@@ -56,13 +56,14 @@ body {
 
 .arm {
   grid-column: 4 / span 2;
+  padding: 70px;
  
 }
 
 
 
 body {
-  color: #0000FF;
+  color: black;
   
 }
 
@@ -71,6 +72,7 @@ body {
   margin: 0 auto;
   width: 90%;
   padding-bottom: 50px;
+  padding-left: 124px;
 }
 
 blockquote {
@@ -87,8 +89,18 @@ blockquote {
   border: solid 2px;
   padding: 20px 30px 20px 30px;
   box-shadow: 13px 13px 0 0 white,
-              15px 15px 0 0 #0000FF,
-              15px 11px 0 0 #0000FF,
-              11px 15px 0 0 #0000FF;
+              15px 15px 0 0 black,
+              15px 11px 0 0 black,
+              11px 15px 0 0 black;
 }
 
+.heading{
+
+  text-decoration: underline;
+  grid-column: 1 / span 2;
+  font-family:"Poppins", sans-serif;
+  font-size: 12px;
+  color: black;
+  text-align: left;
+
+}

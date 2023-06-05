@@ -5,12 +5,12 @@
 }
   
   .text {
-      grid-column: 1 / span 1;
+      grid-column: 3 / span 2;
       font-family:"Poppins", sans-serif;
       font-size: 10px;
       color: black;
       text-align: left;
-      padding-left: 80px;
+     
   
     }
   
@@ -51,3 +51,34 @@
   }
   
   
+body {
+  color: black;
+  
+}
+
+.wrapper {
+  grid-column: 3 / span 2;
+  margin: 0 auto;
+  width: 90%;
+  padding-bottom: 50px;
+  padding-top: 100px;
+}
+
+blockquote {
+  grid-column: 3 / span 2;
+  background: white;
+  padding: 20px 30px 20px 30px;
+  margin: 50px auto;
+  width: 50%;
+  max-width: 500px;
+}
+
+.stacked {
+  grid-column: 3 / span 2;
+  border: solid 2px;
+  padding: 20px 30px 20px 30px;
+  box-shadow: 13px 13px 0 0 white,
+              15px 15px 0 0 black,
+              15px 11px 0 0 black,
+              11px 15px 0 0 black;
+}

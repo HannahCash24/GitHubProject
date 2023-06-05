@@ -124,3 +124,48 @@ blockquote {
   text-align: left;
 
 }
+
+
+
+@media screen and (max-width: 600px) {
+  
+
+  .pill-nav a  {
+    display:block ;
+    text-align: left;
+    padding:10px;
+  }
+
+
+body {
+  color: black;
+  
+}
+
+.wrapper {
+  grid-column: 1 / span 6;
+  margin: 0 auto;
+  width: 90%;
+  padding-bottom: 50px;
+}
+
+blockquote {
+  grid-column: 1 / span 6;
+  background: white;
+  padding: 20px 30px 20px 30px;
+  margin: 50px auto;
+  width: 50%;
+  max-width: 500px;
+}
+
+.stacked {
+  grid-column: 1 / span 6;
+  border: solid 2px;
+  padding: 20px 30px 20px 30px;
+  box-shadow: 13px 13px 0 0 white,
+              15px 15px 0 0 black,
+              15px 11px 0 0 black,
+              11px 15px 0 0 black;
+}
+
+}
